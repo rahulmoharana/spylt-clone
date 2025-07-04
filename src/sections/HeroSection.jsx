@@ -45,9 +45,11 @@ const HeroSection = () => {
   return (
     <section className="bg-main-bg overflow-hidden">
       <div className="hero-container">
-        <img
-          src="public/images/static-img.png"
-          alt="hero-image"
+        <video
+          src="public/videos/hero-bg.mp4"
+          autoPlay
+          loop
+          muted
           className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150"
         />
         <div className="hero-content">
