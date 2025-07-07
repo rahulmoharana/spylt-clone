@@ -46,7 +46,7 @@ const HeroSection = () => {
     <section className="bg-main-bg overflow-hidden">
       <div className="hero-container">
         <video
-          src="public/videos/hero-bg.mp4"
+          src="videos/hero-bg.mp4"
           autoPlay
           loop
           muted
